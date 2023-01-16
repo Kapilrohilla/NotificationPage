@@ -1,8 +1,90 @@
-#count {
-  background-color: hsl(224deg, 21%, 14%);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: jakarataSans;
+  src: url(../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+.wrapper {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  background-color: hsl(219deg, 14%, 63%);
+  font-family: jakarataSans;
+  font-size: 16px;
+}
+.wrapper .container {
+  padding: 10px;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 5px;
+  width: 700px;
+}
+.wrapper .container .heading {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .container .heading h1 {
+  font-size: 20px;
+}
+.wrapper .container .heading h1 span {
+  font-size: 15px;
+  background-color: #063079;
   color: hsl(0deg, 0%, 100%);
-  height: 20px;
-  width: 20px;
-  padding: 5px;
+  padding: 2px 4px;
   border-radius: 2px;
+}
+.wrapper .container .heading #markRead {
+  background-color: unset;
+  border: none;
+  font-size: 16px;
+}
+.wrapper .container .heading #markRead {
+  cursor: pointer;
+}
+.wrapper .container .notifi {
+  display: flex;
+  align-items: center;
+  color: hsl(219deg, 12%, 42%);
+  margin-block: 20px;
+  background-color: hsl(211deg, 68%, 94%);
+  padding: 5px;
+  border-radius: 5px;
+}
+.wrapper .container .notifi img {
+  height: 50px;
+  aspect-ratio: 1;
+}
+.wrapper .container .notifi .content {
+  margin-left: 20px;
+}
+.wrapper .container .notifi .content h2 {
+  display: inline;
+  font-size: unset;
+  color: hsl(224deg, 21%, 14%);
+}
+.wrapper .container .notifi .content .event {
+  color: hsl(224deg, 21%, 14%);
+  font-weight: 700;
+}
+.wrapper .container .notifi .content .time {
+  font-size: 0.8rem;
+}
+.wrapper .container .notifi .content .group {
+  color: #063079;
+  font-weight: 800;
+}
+.wrapper .container .notifi .content .msg {
+  margin-top: 5px;
+  border: 1px solid hsl(219deg, 14%, 63%);
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+.wrapper .container .notifi .other img {
+  border: none;
+  height: 50px;
 }/*# sourceMappingURL=style.css.map */
