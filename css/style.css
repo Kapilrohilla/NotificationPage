@@ -18,10 +18,10 @@
   font-size: 16px;
 }
 .wrapper .container {
-  padding: 10px;
+  padding: 30px;
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 5px;
-  width: 700px;
+  width: 600px;
 }
 .wrapper .container .heading {
   display: flex;
@@ -41,8 +41,6 @@
   background-color: unset;
   border: none;
   font-size: 16px;
-}
-.wrapper .container .heading #markRead {
   cursor: pointer;
 }
 .wrapper .container .notifi {
@@ -50,12 +48,13 @@
   align-items: center;
   color: hsl(219deg, 12%, 42%);
   margin-block: 20px;
-  background-color: hsl(211deg, 68%, 94%);
+  background-color: hsl(210deg, 60%, 98%);
+  border: 1px solid hsl(211deg, 68%, 94%);
   padding: 5px;
   border-radius: 5px;
 }
 .wrapper .container .notifi img {
-  height: 50px;
+  height: 40px;
   aspect-ratio: 1;
 }
 .wrapper .container .notifi .content {
@@ -78,13 +77,15 @@
   font-weight: 800;
 }
 .wrapper .container .notifi .content .msg {
-  margin-top: 5px;
+  margin-top: 15px;
   border: 1px solid hsl(219deg, 14%, 63%);
   padding: 10px;
   border-radius: 3px;
   font-size: 0.9rem;
 }
-.wrapper .container .notifi .other img {
-  border: none;
-  height: 50px;
+.wrapper .container .notifi .content img {
+  display: flexbox;
+}
+.wrapper .container .notifi .unread {
+  background-color: hsl(211deg, 68%, 94%);
 }/*# sourceMappingURL=style.css.map */
