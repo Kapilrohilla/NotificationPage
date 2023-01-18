@@ -64,11 +64,11 @@ body {
   aspect-ratio: 1;
 }
 .wrapper .container .notifi .content {
+  width: 100%;
+  position: relative;
   margin-left: 20px;
 }
-.wrapper .container .notifi .content h2 {
-  display: inline;
-  font-size: unset;
+.wrapper .container .notifi .content span:nth-of-type(1) {
   color: hsl(224deg, 21%, 14%);
 }
 .wrapper .container .notifi .content .event {
@@ -89,8 +89,16 @@ body {
   border-radius: 3px;
   font-size: 0.9rem;
 }
-.wrapper .container .notifi .content img {
-  display: flexbox;
+.wrapper .container .notifi .content .other {
+  position: absolute;
+  right: 10px;
+  top: 2px;
+  display: inline-block;
+  overflow: hidden;
+}
+.wrapper .container .notifi .content .other img {
+  display: inline-block;
+  height: 40px;
 }
 .wrapper .container .notifi .unread {
   background-color: hsl(211deg, 68%, 94%);
