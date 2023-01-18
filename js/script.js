@@ -1,4 +1,4 @@
-const mrkRead = document.getElementsByTagName('button')[0];
+const mrkRead = document.getElementById('markRead');
 let docCount = document.getElementById('count')
 let notification = document.querySelectorAll('.notifi');
 
@@ -31,8 +31,8 @@ mrkRead.addEventListener('click',()=>{
 })
 
 //drkMode
-const btn = document.getElementById('drkToggle').children[0];
-btn.addEventListener('toggle',()=>{
-    btn.children[0].style.display= "none";
-    btn.children[1].style.display= "inline-block";
-})
+// const btn = document.getElementById('drkToggle').children[0];
+// btn.addEventListener('toggle',()=>{
+    // btn.children[0].style.display= "none";
+    // btn.children[1].style.display= "inline-block";
+// })
