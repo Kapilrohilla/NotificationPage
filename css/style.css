@@ -54,10 +54,9 @@ body {
   align-items: center;
   color: hsl(219deg, 12%, 42%);
   margin-block: 20px;
-  background-color: hsl(210deg, 60%, 98%);
   border: 1px solid hsl(211deg, 68%, 94%);
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .wrapper .container .notifi img {
   height: 40px;
@@ -100,6 +99,6 @@ body {
   display: inline-block;
   height: 40px;
 }
-.wrapper .container .notifi .unread {
-  background-color: hsl(211deg, 68%, 94%);
+.wrapper .container .unread {
+  background-color: hsl(210deg, 60%, 08%) !important;
 }/*# sourceMappingURL=style.css.map */
