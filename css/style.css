@@ -120,7 +120,7 @@ body {
   color: #dde0e9;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .wrapper .container {
     width: 100%;
     padding: 10px;
