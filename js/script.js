@@ -33,7 +33,8 @@ mrkRead.addEventListener('click',()=>{
         a.classList.remove('unread');
         count = 0;
         docCount.innerHTML = 0;
-        // if(a.contains())
+        
+    
     })
 })
 // red mark
