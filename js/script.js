@@ -29,13 +29,14 @@ notification.forEach((a)=>{
         })
 });         
 mrkRead.addEventListener('click',()=>{
-    notification.forEach((a,i)=>{
+    let redMark = document.querySelectorAll('.redMark')
+    notification.forEach((a)=>{
         a.classList.remove('unread');
         count = 0;
         docCount.innerHTML = 0;
-        // let e = document.querySelectorAll('.unread');
-        // e.parentElement.removeChild(e); 
-    
+    })
+    redMark.forEach((a)=>{
+        a.parentElement.removeChild(a);
     })
 })
 // red mark
