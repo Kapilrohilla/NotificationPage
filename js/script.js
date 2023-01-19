@@ -19,7 +19,6 @@ notification.forEach((a)=>{
                 
             }else{
                 a.classList.add('unread');
-                // console.log('class added');
                 count += 1;
                 docCount.innerHTML = count;
                 let newElement = document.createElement('span');
@@ -28,12 +27,13 @@ notification.forEach((a)=>{
                 
             }
         })
-});
+});         
 mrkRead.addEventListener('click',()=>{
     notification.forEach((a)=>{
         a.classList.remove('unread');
         count = 0;
         docCount.innerHTML = 0;
+        // if(a.contains())
     })
 })
 // red mark
