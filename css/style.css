@@ -135,3 +135,10 @@ body {
     right: unset;
   }
 }/*# sourceMappingURL=style.css.map */
+.redMark{
+  display:inline-block;
+  height: 7px;
+  width: 7px;
+  background-color: red;
+  border-radius: 50%;
+}
