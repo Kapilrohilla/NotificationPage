@@ -29,11 +29,12 @@ notification.forEach((a)=>{
         })
 });         
 mrkRead.addEventListener('click',()=>{
-    notification.forEach((a)=>{
+    notification.forEach((a,i)=>{
         a.classList.remove('unread');
         count = 0;
         docCount.innerHTML = 0;
-        
+        // let e = document.querySelectorAll('.unread');
+        // e.parentElement.removeChild(e); 
     
     })
 })
