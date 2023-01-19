@@ -30,9 +30,9 @@ mrkRead.addEventListener('click',()=>{
     })
 })
 
-//drkMode
-// const btn = document.getElementById('drkToggle').children[0];
-// btn.addEventListener('toggle',()=>{
-    // btn.children[0].style.display= "none";
-    // btn.children[1].style.display= "inline-block";
-// })
+drkMode
+const btn = document.getElementById('drkToggle').children[0];
+btn.addEventListener('toggle',()=>{
+    btn.children[0].style.display= "none";
+    btn.children[1].style.display= "inline-block";
+})

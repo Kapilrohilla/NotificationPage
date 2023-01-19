@@ -1,13 +1,14 @@
+@font-face {
+  font-family: jakarataSans;
+  src: url(../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+/*# sourceMappingURL=style.css.map */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: jakarataSans;
-  src: url(../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
-}
 body {
   background-color: hsl(211deg, 68%, 94%);
 }
@@ -117,4 +118,20 @@ body {
 }
 .wrapper .container .unread .content span:nth-of-type(n) {
   color: #dde0e9;
+}
+
+@media screen and (max-width: 400px) {
+  .wrapper .container {
+    width: 100%;
+    padding: 10px;
+    position: unset;
+    top: unset;
+    left: unset;
+    transform: unset;
+  }
+  .wrapper .container .notifi .content .other {
+    position: unset;
+    top: unset;
+    right: unset;
+  }
 }/*# sourceMappingURL=style.css.map */
